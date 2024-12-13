@@ -191,7 +191,12 @@ const TextEditor: React.FC = () => {
             handleReturn={handleReturn}
           />
         </div>
-       
+        <ul>
+          <li><strong># + Space</strong>: Convert to Header</li>
+          <li><strong>* + Space</strong>: Apply Bold</li>
+          <li><strong>** + Space</strong>: Apply Red Color</li>
+          <li><strong>*** + Space</strong>: Apply Underline</li>
+        </ul>
       </div>
     </div>
   );
